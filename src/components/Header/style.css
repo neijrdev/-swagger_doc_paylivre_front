@@ -1,0 +1,56 @@
+.header-custom {
+  display: flex;
+  height: 7vh;
+  background: #464748;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.header-profile {
+  display: flex;
+  height: 5vh;
+  width: 50vw;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-avatar-profile {
+  width: auto;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.header-name-profile {
+  padding-left: 10px;
+  font-weight: bold;
+  font-family: "Open Sans",
+    Avenir,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+  color: white;
+}
+
+.button-exit-header{
+  width: auto;
+    min-width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: dimgray;
+    color: white;
+    font-weight: bold;  
+    font-family: "Open Sans",
+      Avenir,
+      "Segoe UI",
+      Arial,
+      sans-serif;
+    color: white;
+
+}
+
+.button-exit-header:hover{
+  background-color: rgb(150, 150, 150);
+  cursor: pointer;
+}
