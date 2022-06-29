@@ -23,7 +23,8 @@
     "build:prod": "cross-env REACT_APP_ENVIROMENT=production react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "cross-env REACT_APP_ENVIROMENT=production gh-pages -d build:prod"
+    "predeploy": "npm run build:prod",
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://neijrdev.github.io/swagger_doc_paylivre_front",
   "eslintConfig": {

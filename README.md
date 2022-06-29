@@ -2,6 +2,10 @@
 
 No login com o google, só é aceito conta do google do domínio da paylivre, que finalizam com o "@paylivre.com"
 
+## App versão online, link abaixo:
+
+[https://neijrdev.github.io/swagger_doc_paylivre_front](https://neijrdev.github.io/swagger_doc_paylivre_front/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -10,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start:local` || `npm start:prod`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -23,7 +27,7 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `npm run build:local` || `npm run build:prod`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
