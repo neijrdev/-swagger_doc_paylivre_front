@@ -1,3 +1,7 @@
+## Importante
+
+No login com o google, só é aceito conta do google do domínio da paylivre, que finalizam com o "@paylivre.com.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
