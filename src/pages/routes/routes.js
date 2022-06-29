@@ -9,6 +9,7 @@ function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/swagger_doc_paylivre_front" element={<Login />} />
         <Route path="/home" element={<PrivateRoutes />}>
           <Route path="/home" element={<Home />} />
         </Route>

@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import "rapidoc"; // <-- import rapidoc
 import "./app.css";
 import paylivreLogoWihite from "./../../assets/paylivre_logo_white.svg";
-import paylivreLogoPWihite from "./../../assets/paylivre_logo_p_white.svg";
 import { AuthGoogleContext } from "../../contexts/authGoogle";
 import Header from "../../components/Header";
 

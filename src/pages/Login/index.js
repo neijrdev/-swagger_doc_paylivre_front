@@ -15,7 +15,11 @@ function Login() {
     return (
       <div className="container-login">
         <div className="container-form-login">
-          <img className="logo-paylivre-login" src={paylivreLogoBlue} />
+          <img
+            alt="logo paylivre"
+            className="logo-paylivre-login"
+            src={paylivreLogoBlue}
+          />
           <p className="text-about-login">Documentação de projetos Paylivre.</p>
           <button className="login-button" onClick={() => loginGoogle()}>
             Logar com Google
