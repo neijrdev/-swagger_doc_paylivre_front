@@ -1,6 +1,6 @@
 ## Importante
 
-No login com o google, só é aceito conta do google do domínio da paylivre, que finalizam com o "@paylivre.com.
+No login com o google, só é aceito conta do google do domínio da paylivre, que finalizam com o "@paylivre.com"
 
 # Getting Started with Create React App
 
