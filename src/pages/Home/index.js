@@ -4,6 +4,7 @@ import "./app.css";
 import paylivreLogoWihite from "./../../assets/paylivre_logo_white.svg";
 import { AuthGoogleContext } from "../../contexts/authGoogle";
 import Header from "../../components/Header";
+import { API_DOC_BASE_URL } from "../../constants/api_doc";
 
 function Home() {
   const { token } = useContext(AuthGoogleContext);
@@ -17,7 +18,7 @@ function Home() {
     // /> */}
       <rapi-doc
         // spec-url="https://petstore.swagger.io/v2/swagger.json"
-        spec-url={`http://localhost:5000/api-docs/json?access_token=${token}`}
+        spec-url={`${API_DOC_BASE_URL}/api-docs/json?access_token=${token}`}
         render-style="read"
         style={{ height: "93vh", width: "100%" }}
         primary-color="#168ce8"

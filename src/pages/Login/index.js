@@ -3,6 +3,7 @@ import { Navigate } from "react-router-dom";
 import { AuthGoogleContext } from "../../contexts/authGoogle";
 import "./login.css";
 import paylivreLogoBlue from "./../../assets/logo_paylivre_blue.svg";
+import { HOST_WEB } from "../../constants/web_host";
 
 function Login() {
   const { signInGoogle, signed } = useContext(AuthGoogleContext);
@@ -28,7 +29,7 @@ function Login() {
       </div>
     );
   } else {
-    return <Navigate to="/home" />;
+    return <Navigate to={`/${HOST_WEB}/home`} />;
   }
 }
 
