@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/swagger_doc_paylivre_front/static/css/main.135b4da0.css",
-    "main.js": "/swagger_doc_paylivre_front/static/js/main.5a100e6c.js",
+    "main.js": "/swagger_doc_paylivre_front/static/js/main.9c92d4a6.js",
     "static/media/paylivre_logo_white.svg": "/swagger_doc_paylivre_front/static/media/paylivre_logo_white.0e44d6c58efa9f0f8b945495d3efa164.svg",
     "static/media/logo_paylivre_blue.svg": "/swagger_doc_paylivre_front/static/media/logo_paylivre_blue.01d99f7ffc6cf22ab4985e5240cbf67e.svg",
     "index.html": "/swagger_doc_paylivre_front/index.html",
     "main.135b4da0.css.map": "/swagger_doc_paylivre_front/static/css/main.135b4da0.css.map",
-    "main.5a100e6c.js.map": "/swagger_doc_paylivre_front/static/js/main.5a100e6c.js.map"
+    "main.9c92d4a6.js.map": "/swagger_doc_paylivre_front/static/js/main.9c92d4a6.js.map"
   },
   "entrypoints": [
     "static/css/main.135b4da0.css",
-    "static/js/main.5a100e6c.js"
+    "static/js/main.9c92d4a6.js"
   ]
 }
